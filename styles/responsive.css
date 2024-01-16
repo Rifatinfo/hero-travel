@@ -56,4 +56,33 @@
         .save-up{
          margin-left: 75px; 
       }
+      .heading-video-container{
+         flex-direction: column;
+      }
+      .video{
+         width: 275px;
+         height: 200px;
+}
+        .see-beach-tour{
+         position: absolute;
+         margin: 0;
+        }
+        .see-card{
+         width: 303px;
+         height: 200px;
+         border-radius: 16px;
+         border: 2px solid #FFF;
+         background: rgba(255, 255, 255, 0.80);
+         backdrop-filter: blur(2.5px);
+       position: relative;
+         margin-left: 0;
+        margin-bottom: 260px;
+      
+
+        }
+        .btn-seemore{
+         width: 130px;
+         height: 40px;
+        }
+        
 }
