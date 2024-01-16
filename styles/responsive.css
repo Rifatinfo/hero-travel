@@ -1,0 +1,59 @@
+/* mobile device */
+@media screen and (max-width:576px) {
+   nav{
+    padding: 0;
+    flex-direction: column;
+   }   
+   nav >ul {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    /* background-color: rgb(82, 82, 236); */
+    background-color: black;
+   
+   } 
+   nav li {
+    margin: 30px auto;
+   }
+   nav li a{
+    color: aliceblue;
+   }
+   .btn-primary{
+      flex-direction: column;
+      gap:10px ;
+   }
+        /* tour section complete  */
+   .tour-container{
+     flex-direction: column-reverse;
+   }
+   .tour-container img {
+     width:90%;
+   }
+         /* card style */
+   .card-container{
+      flex-direction: column;
+   }
+   .card{
+      width: 335px;
+   }
+   
+   .card {
+      font-size: 0.7rem;
+      /* text-align: center; */
+      width: 271px;
+   }
+   .last-card  {
+      font-size: 0.7rem;
+      width: 271px;
+      margin-left: 0;
+      height:250px;
+   }
+        /* card style end  */
+        .newsletter-img-container{
+         flex-direction: column;
+        }
+        .save-up{
+         margin-left: 75px; 
+      }
+}

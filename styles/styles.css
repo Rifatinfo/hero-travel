@@ -4,8 +4,20 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
-header{
+header , main , footer {
     padding:50px 140px ;
+}
+.menu-btn{
+    position: absolute; 
+    top:30px ;
+    right: 30px ;
+    width:40px ; 
+   
+}
+.active{
+    color:  #FF5400;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
         /* start nav styles */
@@ -107,3 +119,165 @@ nav li a{
    
    
 }
+       /* popular tour section style */
+.tour-container {
+    display: flex;
+    margin-top: 100px ;
+    gap:20px ;
+}
+.tour h3{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.tour p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+}
+.tour li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.tour-button{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    width: 174px;
+    height: 52px;
+}
+
+
+
+
+
+
+
+
+
+         /* main section style  */
+.choose{
+    text-align: center;
+    margin-bottom: 40px ;
+}
+.choose h3{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.choose p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+}
+
+       /* card style  */
+ .card-container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+ }
+ .last-card{
+    margin-left:  200px;
+    margin-top: 24px;
+    width: 573px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 15px;
+ }
+.card{
+    width: 573px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 15px;
+}
+.last-card{
+    width: 573px;
+    height: 200px;
+   
+}
+         /* footer section style  */
+
+.nav-title-footer{
+    text-align: center;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap:20px ;
+}
+.footer-title{
+    text-align: center;
+}
+.last-title{
+    text-align: center;
+}
+.last{
+    margin-top: 60px ;
+}
+   /* login form style  */
+   .news{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+   }
+   .login-title{
+    color: #5A5A5D;  
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom:24px ;
+    
+   }
+   .gap{
+    margin-bottom: 24px;
+   }
+   .login-form-container{
+    display: flex;
+   
+   
+   }
+   .login-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  #FF5400;
+    padding: 15px;
+   }
+   .login-form input {
+    margin:8px ;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border:0;
+    padding: 16px 20px ;
+    
+   }
+
+   .beautiful-img{
+      background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+      width: 100%;
+      min-height: 422px;
+      background-position: bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px ;
+   }
+   .save-up{
+    width: 214.023px;
+    height: 79.268px;
+    margin-left: 505px; 
+    margin-top: 285px;
+    transform: rotate(-45deg);
+    border-radius: 16px;
+    background: #FF5400;}
+
+   .newsletter-img-container{
+    display: flex;
+    gap:24px ;
+   
+   }
+   
