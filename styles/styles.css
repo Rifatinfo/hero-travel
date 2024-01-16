@@ -384,5 +384,106 @@ font-weight: 400;
       position: absolute;
       
     }
+            /* grid image style  */
+            .destination h1 {
+                color: #131318;
+                font-size: 3.5rem;
+                font-weight: 800;
+            }
+           .destination{
+            color: rgba(19, 19, 24, 0.70);
+            font-size: 1rem;
+            font-weight: 400;
+           }
     
+    .img-one{
+        width:50% ;
+        border-radius: 16px ;
+        background-image: url('../Images/Rectangle\ 5.png');
+        object-fit: cover;
+      
+    }
+    .img-two{
     
+        width:50%;
+        border-radius: 16px ;
+        background-image: url('../Images/Rectangle\ 8.png');
+        object-fit: cover;
+
+    }
+    .img-three{
+      
+        width:30%;
+        border-radius: 16px ;
+        background-image: url('../Images/Rectangle\ 6.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+
+    }
+    .img-four{
+    
+        width:45%;
+        border-radius: 16px ;
+        background-image: url('../Images/Rectangle\ 7.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .img-five{
+      
+        width:25%;
+        border-radius: 16px ;
+        background-image: url('../Images/Rectangle\ 9.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .img-six{
+      
+        width:40%;
+        border-radius: 16px ;
+        background-image: url('../Images/Rectangle\ 10.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-seven{
+      
+        width:60%;
+        border-radius: 16px ;
+        background-image: url('../Images/Rectangle\ 11.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-container-one ,.img-container-two ,.img-container-three {
+        display: flex;
+        height: 300px;
+        gap:24px;
+        margin-top: 20px;
+    }
+    .Maldives ,.Indonesia {
+      text-align: center;
+      margin: 150px;
+      color:#FFF ;
+      font-size: 1.7rem;
+      font-weight: 600;
+    }
+    .deals-title{
+        text-align: center;
+        color: #131318;
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .deals-description{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+       font-size: 16px;
+       font-weight: 400;
+       margin-bottom: 20px;
+    }
